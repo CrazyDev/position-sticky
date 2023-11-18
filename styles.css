@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url("img/background.jpg");
+  background-size: cover;
+  height: 700px;
+  background-position: bottom;
+}
+
+div.widget {
+  width: 255px;
+  height: 85px;
+  margin: 0 auto;
+  background-color: #FCFDFD;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080C21;
+  position: sticky;
+  top: 50px;
+}
+
+div.date{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba( 0, 0, 0, 0.5);
+}
+
+div.city {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba( 0, 0, 0, 0.7);
+}
+
+div.temp {
+  font-size: 50px;
+  color: rgba( 0, 0, 0, 0.9);
+  font-weight: 100;
+}
+
+div.right-panel {
+  position: absolute;
+  float: right;
+  top: 0;
+  margin-top: 35px;
+  padding-left: 10px;
+}
+
+div.panel {
+  display: inline-block;
+}
